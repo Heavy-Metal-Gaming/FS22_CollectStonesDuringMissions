@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+<version>1.0.0.0</version>
+<author>Heavy Metal Gaming</author>
+
+    <title>
+        <en>Collect Stones On Missions</en>
+        <de></de>
+    </title>
+
+    <description>
+        <en><![CDATA[Allow the collection of stones during cultivation or plowing missions.]]></en>
+        <de><![CDATA[]]></de>
+    </description>
+
+    <multiplayer supported="true" />
+    <iconFilename>modIcon.dds</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="CollectStonesDuringMissions.lua" />
+    </extraSourceFiles>
+</modDesc>
