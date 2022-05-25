@@ -16,6 +16,6 @@
     <multiplayer supported="true" />
     <iconFilename>modIcon.dds</iconFilename>
     <extraSourceFiles>
-        <sourceFile filename="CollectStonesDuringMissions.lua" />
+        <sourceFile filename="src/CollectStonesDuringMissions.lua" />
     </extraSourceFiles>
 </modDesc>
