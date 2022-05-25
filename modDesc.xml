@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="63">
+<modDesc descVersion="65">
 <version>1.0.0.0</version>
 <author>Heavy Metal Gaming</author>
 
     <title>
         <en>Collect Stones On Missions</en>
-        <de></de>
+        <de>Sammle Steine in Missionen</de>
     </title>
 
     <description>
-        <en><![CDATA[Allow the collection of stones during cultivation or plowing missions.]]></en>
-        <de><![CDATA[]]></de>
+        <en><![CDATA[Allow the collection of stones during plowing, cultivation or sowing missions.]]></en>
+        <de><![CDATA[Erlauben Sie das Sammeln von Steinen beim Pflügen, Kultivieren oder Säen.]]></de>
     </description>
 
     <multiplayer supported="true" />
