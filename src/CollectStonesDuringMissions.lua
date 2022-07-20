@@ -9,9 +9,13 @@ function CollectStonesDuringMissions:loadMap(name)
 end; 
 
 function CollectStonesDuringMissions:getIsMissionWorkAllowed(superFunc, farmId, x, z, workAreaType)
-    return superFunc(self, farmId, x, z, workAreaType) or ((workAreaType == WorkAreaType.STONEPICKER)
-    	and (superFunc(self, farmId, x, z, WorkAreaType.CULTIVATOR) or superFunc(self, farmId, x, z, WorkAreaType.PLOW)
-    	or superFunc(self, farmId, x, z, WorkAreaType.SOWINGMACHINE)));
+    return superFunc(self, farmId, x, z, workAreaType) or
+        ((workAreaType == WorkAreaType.STONEPICKER) and
+            (superFunc(self, farmId, x, z, WorkAreaType.CULTIVATOR) or
+            superFunc(self, farmId, x, z, WorkAreaType.PLOW) or
+            superFunc(self, farmId, x, z, WorkAreaType.SOWINGMACHINE)
+            )
+        );
 end
 
 addModEventListener(CollectStonesDuringMissions);
