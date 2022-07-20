@@ -5,13 +5,13 @@ Copyright Heavy Metal Gaming (aka Dylan Myers) <gamer.hm.2021@gmail.com>
 GitHub: https://github.com/Dylan-M/FS22_CollectStonesDuringMissions
 Based somewhat on, and inspired by, the Collect Straw At Missions mod by derSchreiner
 -->
-<modDesc descVersion="66">
+<modDesc descVersion="67">
 <version>1.0.0.0</version>
 <author>Heavy Metal Gaming</author>
 
     <title>
         <en>Collect Stones On Missions</en>
-        <de>Sammle Steine in Missionen</de>
+        <de>Sammle Steine In Missionen</de>
     </title>
 
     <description>
